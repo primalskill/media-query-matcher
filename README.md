@@ -1,4 +1,4 @@
-Use the MatchMedia API to detect is a specific media query applies on the page.
+Use the native matchMedia API to detect if a specific media query applies on the page.
 
 ## Browser Support
 
