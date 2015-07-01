@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Media Query Matcher</title>
+
+	<style type="text/css">
+
+		table {
+			width: 100%;
+		}
+
+		th, td {
+			text-align: left;
+			border: 1px solid #ccc;
+			padding: 10px;
+		}
+
+	</style>
+
+
+</head>
+
+<body>
+
+	<div><h2>Initial State</h2></div>
+
+	<table>
+		<thead>
+		<tr>
+			<th>Phone</th>
+			<th>Tablet</th>
+			<th>Desktop</th>
+			<th>Large Desktop</th>
+			<th>TV</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td id="phone">&nbsp;</td>
+			<td id="tablet">&nbsp;</td>
+			<td id="desktop">&nbsp;</td>
+			<td id="large-desktop">&nbsp;</td>
+			<td id="tv">&nbsp;</td>
+		</tr>
+		</tbody>
+	</table>
+
+	<div><h2>Events</h2></div>
+
+	<table>
+		<thead>
+		<tr>
+			<th>Phone</th>
+			<th>Tablet</th>
+			<th>Desktop</th>
+			<th>Large Desktop</th>
+			<th>TV</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="event-phone">resize window to get value</td>
+				<td id="event-tablet">resize window to get value</td>
+				<td id="event-desktop">resize window to get value</td>
+				<td id="event-large-desktop">resize window to get value</td>
+				<td id="event-tv">resize window to get value</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div><h2>Retina</h2></div>
+
+	<table>
+		<thead>
+		<tr>
+			<th>2x</th>
+			<th>3x</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td id="retina-2x">&nbsp;</td>
+			<td id="retina-3x">&nbsp;</td>
+		</tr>
+		</tbody>
+	</table>
+
+<script src="demo.bundle.js"></script>
+</body>
+</html>
